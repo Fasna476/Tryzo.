@@ -1,0 +1,78 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  background-color: #fdfdfd;
+  flex-wrap: wrap;
+  gap: 20px;
+  }
+  
+  .hero-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  .cta {
+    padding: 12px 24px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta:hover {
+    background-color: #ff0055;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.25);
+  }
+  
+  .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  .product-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .product-section h2 {
+    margin-bottom: 32px;
+    font-size: 32px;
+  }
+  
+  .product-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    padding: 0 20px;
+  }
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-content {
+      padding: 0;
+    }
+  }
