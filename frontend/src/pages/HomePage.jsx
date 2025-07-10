@@ -52,7 +52,7 @@ const HomePage = () => {
       <div className="hero-content">
         <h1>Step Into Style with Tryzo</h1>
         <p>Try Before You Buy — The Future of Shopping</p>
-        <a className="cta" href="/products">Start Trying Now</a>
+        <a className="cta" href="/products">Shop Now</a>
         
         </div>
         <div className="hero-image">
